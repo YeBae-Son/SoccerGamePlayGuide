@@ -1,0 +1,643 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.20f1 (c5d806317f84) revision 12965894'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 32693 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\2022.2.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Program Files/Unity Project/mysoccer test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+7664
+Successfully changed project path to: D:/Program Files/Unity Project/mysoccer test
+D:/Program Files/Unity Project/mysoccer test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15452] Host "[IP] 172.30.1.3 [Port] 0 [Flags] 2 [Guid] 1058321997 [EditorId] 1058321997 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J57FMGT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15452] Host "[IP] 172.30.1.3 [Port] 0 [Flags] 2 [Guid] 1058321997 [EditorId] 1058321997 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J57FMGT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 8.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.20f1 (c5d806317f84)
+[Subsystems] Discovering subsystems at path D:/Program Files/2022.2.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Project/mysoccer test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   31.0.15.5176
+Initialize mono
+Mono path[0] = 'D:/Program Files/2022.2.20f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/2022.2.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/2022.2.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/2022.2.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003128 seconds.
+- Loaded All Assemblies, in  0.257 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.224 seconds
+Domain Reload Profiling:
+	ReloadAssembly (140ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+				TypeCache.Initialize (113ms)
+					TypeCache.ScanAssembly (111ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (176ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Program Files\Unity Project\mysoccer test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Program Files\Unity Project\mysoccer test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.652 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-mysoccer test
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.618 seconds
+Domain Reload Profiling:
+	ReloadAssembly (180ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		LoadAllAssembliesAndSetupDomain (471ms)
+			LoadAssemblies (228ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+				TypeCache.Initialize (263ms)
+					TypeCache.ScanAssembly (258ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (486ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (355ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (371.1 KB). Loaded Objects now: 7169.
+Memory consumption went from 243.3 MB to 242.9 MB.
+Total: 5.059900 ms (FindLiveObjects: 0.488900 ms CreateObjectMapping: 0.617300 ms MarkObjects: 3.711200 ms  DeleteObjects: 0.241900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 169591.809462 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a2dba8f2a5bb96855c4296c7c3c275') in 0.452964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6769
+========================================================================
+Received Import Request.
+  Time since last request: 38.680875 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b781a043d4c123636be5312d4d2fef') in 0.181521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6773
+========================================================================
+Received Import Request.
+  Time since last request: 17.657999 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccfffe63408c6e8af955e8b666916bb') in 0.162905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6773
+========================================================================
+Received Import Request.
+  Time since last request: 6.644145 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84241b723fe98be8912b0350fc203812') in 0.229944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6773
+========================================================================
+Received Import Request.
+  Time since last request: 0.443453 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e596e48ce0fec2d5359dea7af22c30') in 0.245047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6773
+========================================================================
+Received Import Request.
+  Time since last request: 5.175339 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001fab291a7885b99951153b6e3ec7f5') in 0.191053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6773
+========================================================================
+Received Import Request.
+  Time since last request: 18.015626 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940d33c58a6089dd13ebf9c00d0c008b') in 0.149796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6773
+========================================================================
+Received Import Request.
+  Time since last request: 11.428895 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d344aaf2f3a7dd029d3fcb348c4764') in 0.181730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6773
+========================================================================
+Received Import Request.
+  Time since last request: 4.932098 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c49cc0857bb5c02afde89c8eb84e14') in 0.157108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6773
+========================================================================
+Received Import Request.
+  Time since last request: 0.718084 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b886ef023ac33c2895e96c65cb86ce6') in 0.170293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6773
+========================================================================
+Received Import Request.
+  Time since last request: 1.319077 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5d1fda2b9df75558ef4d2336061c9a') in 0.234248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6773
+========================================================================
+Received Import Request.
+  Time since last request: 1.440826 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ecea1ee692c558bc6211e13fca0318') in 0.151326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6773
+========================================================================
+Received Import Request.
+  Time since last request: 5.792607 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e234a46f4e38451c3286ebbcfb808423') in 0.280743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6777
+========================================================================
+Received Import Request.
+  Time since last request: 4.772657 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c824a4df2e4f847be2f78fdc489489') in 0.189655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6777
+========================================================================
+Received Import Request.
+  Time since last request: 0.288276 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8262e29e22395ee0ac82dcd6e2cb80') in 0.195139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6777
+========================================================================
+Received Import Request.
+  Time since last request: 2.210429 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adda3274e9241f28619998aac4f577d6') in 0.146838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6777
+========================================================================
+Received Import Request.
+  Time since last request: 0.595702 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd76001e156a94fe255d5c39be6adb4') in 0.161282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6777
+========================================================================
+Received Import Request.
+  Time since last request: 0.315130 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3349b2c7de9fab4a413eb892b91b95b') in 0.142775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6777
+========================================================================
+Received Import Request.
+  Time since last request: 0.187821 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649a7ce6eeede42fbdd892e6334acad9') in 0.160609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6777
+========================================================================
+Received Import Request.
+  Time since last request: 4.307983 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba922a9679e1c9a1d0af384c286c688') in 0.162266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6777
+========================================================================
+Received Import Request.
+  Time since last request: 3.546744 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f18eb52ec1e7ed0671af0c0f5e0503') in 0.159989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6777
+========================================================================
+Received Import Request.
+  Time since last request: 3.133725 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b810ee9821d2a8c8ff01e34d0b03d19b') in 0.175725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6777
+========================================================================
+Received Import Request.
+  Time since last request: 17.399372 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11561c33529a6a2b10d0aaea90c70921') in 0.165404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6777
+========================================================================
+Received Import Request.
+  Time since last request: 5.365118 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ce5955c6dd0a1c2ea2c522b8cf2a04') in 0.189746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6777
+========================================================================
+Received Import Request.
+  Time since last request: 9.155438 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951fcb9a8d94a322ce12fc9d5c8e481e') in 0.220143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6777
+========================================================================
+Received Import Request.
+  Time since last request: 16.359366 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d79ba683b8021703423ddce4a017d9') in 0.206113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6781
+========================================================================
+Received Import Request.
+  Time since last request: 3.545902 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3713b7458b9ee635822052a342671fc') in 0.183910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6781
+========================================================================
+Received Import Request.
+  Time since last request: 2.317105 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06348a04bf43aab757170436c7642f7') in 0.214025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6781
+========================================================================
+Received Import Request.
+  Time since last request: 3.880328 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1753b4fd4496253ff286d6df81f5a0') in 0.170010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6781
+========================================================================
+Received Import Request.
+  Time since last request: 6.481465 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad1152502b9e396079ea65c4e335a45') in 0.158213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6781
+========================================================================
+Received Import Request.
+  Time since last request: 26.149522 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f7ba9bd573d75116135ff46e01dcc3') in 0.162260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6781
+========================================================================
+Received Import Request.
+  Time since last request: 1.116218 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86572734f6d4aa525eaf891b10c50f22') in 0.040186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2020
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Program Files\Unity Project\mysoccer test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Program Files\Unity Project\mysoccer test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.665 seconds
+Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+SingletonAssetCreator:CreateSingletonAsset<FStudio.MatchEngine.FieldPositions.KickOffStage2_Starter> (string) (at Assets/SingletonAssetCreator.cs:25)
+SingletonAssetCreator:.cctor () (at Assets/SingletonAssetCreator.cs:11)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/SingletonAssetCreator.cs line 25]
+
+UnityEngine.UnityException: Creating asset at path Assets/FootballSimulator/Resources/Singletons/KickOffStage2_Starter.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at SingletonAssetCreator.CreateSingletonAsset[T] (System.String assetName) [0x00029] in D:\Program Files\Unity Project\mysoccer test\Assets\SingletonAssetCreator.cs:25 
+  at SingletonAssetCreator..cctor () [0x00000] in D:\Program Files\Unity Project\mysoccer test\Assets\SingletonAssetCreator.cs:11 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-mysoccer test
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.947 seconds
+Domain Reload Profiling:
+	ReloadAssembly (203ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		LoadAllAssembliesAndSetupDomain (461ms)
+			LoadAssemblies (219ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+				TypeCache.Initialize (278ms)
+					TypeCache.ScanAssembly (269ms)
+				ResolveRequiredComponents (13ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6505 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (323.4 KB). Loaded Objects now: 7225.
+Memory consumption went from 216.3 MB to 216.0 MB.
+Total: 4.563000 ms (FindLiveObjects: 0.493500 ms CreateObjectMapping: 0.438900 ms MarkObjects: 3.463200 ms  DeleteObjects: 0.166600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Program Files\Unity Project\mysoccer test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Program Files\Unity Project\mysoccer test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.635 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+SingletonAssetCreator:CreateSingletonAsset<FStudio.MatchEngine.FieldPositions.KickOffStage2_Starter> (string) (at Assets/SingletonAssetCreator.cs:25)
+SingletonAssetCreator:.cctor () (at Assets/SingletonAssetCreator.cs:11)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/SingletonAssetCreator.cs line 25]
+
+UnityEngine.UnityException: Creating asset at path Assets/FootballSimulator/Resources/Singletons/KickOffStage2_Starter.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at SingletonAssetCreator.CreateSingletonAsset[T] (System.String assetName) [0x00029] in D:\Program Files\Unity Project\mysoccer test\Assets\SingletonAssetCreator.cs:25 
+  at SingletonAssetCreator..cctor () [0x00000] in D:\Program Files\Unity Project\mysoccer test\Assets\SingletonAssetCreator.cs:11 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-mysoccer test
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.945 seconds
+Domain Reload Profiling:
+	ReloadAssembly (187ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		LoadAllAssembliesAndSetupDomain (447ms)
+			LoadAssemblies (218ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+				TypeCache.Initialize (269ms)
+					TypeCache.ScanAssembly (262ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (424ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6505 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (320.9 KB). Loaded Objects now: 7231.
+Memory consumption went from 216.3 MB to 216.0 MB.
+Total: 5.685000 ms (FindLiveObjects: 0.581400 ms CreateObjectMapping: 0.520100 ms MarkObjects: 4.416900 ms  DeleteObjects: 0.165600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Switching render pipeline 4ac22295c89810d48bc9b90daa2772a5 -> 6c0885a12331a6c4bb8f4498c88f16ee
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (290.7 KB). Loaded Objects now: 7231.
+Memory consumption went from 116.5 MB to 116.2 MB.
+Total: 5.277800 ms (FindLiveObjects: 0.537400 ms CreateObjectMapping: 0.486700 ms MarkObjects: 4.128300 ms  DeleteObjects: 0.124700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:srp/default-pipeline: c680581a32136a4cbbf844898cf861ee -> a42c22598c89014db89c9bd0aa72275a
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 98.023827 seconds.
+  path: Assets/FootballSimulator/Arts/UI/MatchUI.prefab
+  artifactKey: Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FootballSimulator/Arts/UI/MatchUI.prefab using Guid(e2f3f842d87e02e46b2efdbbf3526266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4402a51bf9f843e13af730bded315b19') in 0.123289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2020
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (293.0 KB). Loaded Objects now: 7231.
+Memory consumption went from 116.8 MB to 116.5 MB.
+Total: 5.613300 ms (FindLiveObjects: 0.511900 ms CreateObjectMapping: 0.477100 ms MarkObjects: 4.527400 ms  DeleteObjects: 0.095300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
